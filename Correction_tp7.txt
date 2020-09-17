@@ -1,0 +1,126 @@
+Polytechnique Montréal
+
+Département de génie informatique et génie logiciel
+
+INF1900: Projet initial de système embarqué
+
+Grille de correction des programmes:
+
+Identification:
+  Travail    : Mise en commun du code et formation de librairies
+  Section #  : 3
+  Équipe #   : 4041
+  Correcteur : Mouna Belaid
+
+Code:
+– La qualités et le choix de vos portions de code choisies   (5/5)
+– La qualités de vos modifications aux Makefiles             (3.5/5)
+
+Le rapport:
+– Explications cohérentes par rapport au code retenu
+  pour former la librairie                                   (2/2)
+– Explications cohérentes par rapport aux Makefiles modifiés (2/2)
+– Explications claires avec un bon niveau de détails         (1.5/2)
+– Bon français                                               (1/1)
+
+Généralités:
+– Bonne soumission de l'ensemble du code (compilation sans
+  erreurs, …) et du rapport selon le format demandé          (1.5/3)
+
+Total: 16.5/20
+
+Commentaires du correcteur:
+-(-1.5 // Généralités) 
+Fichiers indésirables : equipe4041/TP7/.~lock.rapportMakefile.odt#
+                        equipe4041/TP7/.nfs0000000002220887000012e1
+Votre code n'est pas soumis au bon endroit. Il doit être soumis sous /tp/tp7
+- (-1.5 // La qualités de vos modifications aux Makefiles ) Le makefile de l'exécutable ne compile pas. Vous devez enlever dans 
+lib4041.h la ligne incluant vari_delay.h parce que ce fichier n'existe plus.
+- (-0.5 // Explications claires avec un bon niveau de détail) Plus de détails concernant chacune des fonctions individuelles auraient été
+souhaitées.
+
+======================= Basé sur le commit suivant =============================
+commit e9c1acd149345a0f9a57eefe8d82ecbfb128d002
+Author: Laurence Robert <larobb@l3818-03.info.polymtl.ca>
+Date:   Thu Feb 28 16:33:16 2019 -0500
+
+    Exportation du rapport de .odt à .pdf
+
+======================= Fichiers indésirables =============================
+"equipe40/tp/tp4/Probl\303\250me 1/pb1.d"
+"equipe40/tp/tp4/Probl\303\250me 1/pb1.o"
+"equipe40/tp/tp4/Probl\303\250me 1/test.hex"
+"equipe40/tp/tp4/Probl\303\250me 1/test.out"
+"equipe40/tp/tp4/Probl\303\250me 1/test.out.map"
+"equipe40/tp/tp4/Probl\303\250me 2/pb2.d"
+"equipe40/tp/tp4/Probl\303\250me 2/pb2.o"
+"equipe40/tp/tp4/Probl\303\250me 2/test.hex"
+"equipe40/tp/tp4/Probl\303\250me 2/test.out"
+"equipe40/tp/tp4/Probl\303\250me 2/test.out.map"
+"equipe40/tp/tp4/Probl\303\250me 3/pb3.d"
+"equipe40/tp/tp4/Probl\303\250me 3/pb3.o"
+"equipe40/tp/tp4/Probl\303\250me 3/test.hex"
+"equipe40/tp/tp4/Probl\303\250me 3/test.out"
+"equipe40/tp/tp4/Probl\303\250me 3/test.out.map"
+equipe40/tp/tp5/pb1/memoire_24.d
+equipe40/tp/tp5/pb1/memoire_24.o
+equipe40/tp/tp5/pb1/pb1.d
+equipe40/tp/tp5/pb1/pb1.o
+equipe40/tp/tp5/pb1/test.hex
+equipe40/tp/tp5/pb1/test.out
+equipe40/tp/tp5/pb1/test.out.map
+equipe40/tp/tp5/pb2/memoire_24.d
+equipe40/tp/tp5/pb2/memoire_24.o
+equipe40/tp/tp5/pb2/pb2.d
+equipe40/tp/tp5/pb2/pb2.o
+equipe40/tp/tp5/pb2/test.hex
+equipe40/tp/tp5/pb2/test.out
+equipe40/tp/tp5/pb2/test.out.map
+equipe40/tp/tp5/pb3/memoire_24.d
+equipe40/tp/tp5/pb3/memoire_24.o
+equipe40/tp/tp5/pb3/pb3.d
+equipe40/tp/tp5/pb3/pb3.o
+equipe40/tp/tp5/pb3/test.hex
+equipe40/tp/tp5/pb3/test.out
+equipe40/tp/tp5/pb3/test.out.map
+equipe40/tp/tp6/pb1/pb1.d
+equipe40/tp/tp6/pb1/pb1.o
+equipe40/tp/tp6/pb1/test.hex
+equipe40/tp/tp6/pb1/test.out
+equipe40/tp/tp6/pb1/test.out.map
+equipe40/tp/tp6/pb2/can.d
+equipe40/tp/tp6/pb2/can.o
+equipe40/tp/tp6/pb2/pb2.d
+equipe40/tp/tp6/pb2/pb2.o
+equipe40/tp/tp6/pb2/test.hex
+equipe40/tp/tp6/pb2/test.out
+equipe40/tp/tp6/pb2/test.out.map
+equipe4041/TP7/.~lock.rapportMakefile.odt#
+equipe41/tp/tp3/pb1/pb1.d
+equipe41/tp/tp3/pb1/pb1.o
+equipe41/tp/tp3/pb1/tp3.hex
+equipe41/tp/tp3/pb1/tp3.out
+equipe41/tp/tp3/pb1/tp3.out.map
+equipe41/tp/tp3/pb2/pb2.d
+equipe41/tp/tp3/pb2/pb2.o
+equipe41/tp/tp3/pb2/tp3.hex
+equipe41/tp/tp3/pb2/tp3.out
+equipe41/tp/tp3/pb2/tp3.out.map
+equipe41/tp/tp4/pb1/pb1.d
+equipe41/tp/tp4/pb1/pb1.o
+equipe41/tp/tp4/pb1/tp4.hex
+equipe41/tp/tp4/pb1/tp4.out
+equipe41/tp/tp4/pb1/tp4.out.map
+equipe41/tp/tp4/pb1/tp4pb1.d
+equipe41/tp/tp4/pb1/tp4pb1.o
+equipe41/tp/tp4/pb2/.pb2.cpp.swp
+equipe41/tp/tp6/pb1/pb1.d
+equipe41/tp/tp6/pb1/pb1.o
+equipe41/tp/tp6/pb1/tp6pb1.hex
+equipe41/tp/tp6/pb1/tp6pb1.out
+equipe41/tp/tp6/pb1/tp6pb1.out.map
+
+======================= Sortie de make dans les sous-répertoires =============================
+======================= Sortie de make dans tp/tp7 =============================
+make: *** correction_tp7/4041/tp/tp7 : No such file or directory. Arrêt.
+

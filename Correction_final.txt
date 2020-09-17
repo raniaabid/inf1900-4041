@@ -1,0 +1,167 @@
+Polytechnique Montréal
+
+Département de génie informatique et génie logiciel
+
+INF1900: Projet initial de système embarqué
+
+Grille de correction des programmes:
+
+Identification:
+  Travail    : Code final
+  Section #  : 3
+  Équipe #   : 4041
+  Correcteur : Samuel Therrien
+
+Lisibilité:
+- En-têtes en début de programme et de fonctions   (0/1)
+- Identificateurs significatifs (variables, etc.)  (0.5/1)
+- Commentaires aux endroits stratégiques           (1/1)
+- Indentation et facilité de lecture               (0/1)
+- Broches, ressources matérielles bien identifiées (0.5/1)
+
+Modularité et comprehension:
+- Les fonctions sont assez courtes, bien établies et avec de bons paramètres  (1/1)
+- Le code reflète une bonne compréhension des concepts de base                (2/2)
+- Le code montre que la solution proposée permet de bien résoudre le problème (2/2)
+
+Fonctionnalité:
+- Soumission réussie sous GIT (bon endroit, sans fichiers inutiles) (1.5/3)
+- Compilation sans "warnings" et sans erreurs                       (1/2)
+- Fonctionnement correct (évalué en "boite noire")                  (5/5)
+
+Total: 14.5/20
+
+Commentaires du correcteur:
+- Manque au moins 1 en-tête de fichier (-0.5)
+- Manque au moins 1 en-tête de fonction (-0.5)
+- Présence de magic numbers (-0.5)
+- Difficulté de lecture dû à beaucoup de lignes vides ne créant aucune séparation (-0.5)
+- Fichier de plus de 1 000 lignes de code (-0.5)
+- Aucune division du code, ce qui nuit à l'identification des ressources matérielles (-0.5)
+- Présence de fichiers inutiles (-1.5)
+- Présence de warnings (-1)
+
+
+
+
+======================= Basé sur le commit suivant =============================
+commit 6f843bb223a2546f67e2e5f6dca1206f230815cd
+Author: Akoda <akoda@gmail.com>
+Date:   Sun Apr 14 06:08:52 2019 -0400
+
+    reset du message avant attente d'input
+
+======================= Fichiers indésirables =============================
+"equipe40/tp/tp4/Probl\303\250me 1/pb1.d"
+"equipe40/tp/tp4/Probl\303\250me 1/pb1.o"
+"equipe40/tp/tp4/Probl\303\250me 1/test.hex"
+"equipe40/tp/tp4/Probl\303\250me 1/test.out"
+"equipe40/tp/tp4/Probl\303\250me 1/test.out.map"
+"equipe40/tp/tp4/Probl\303\250me 2/pb2.d"
+"equipe40/tp/tp4/Probl\303\250me 2/pb2.o"
+"equipe40/tp/tp4/Probl\303\250me 2/test.hex"
+"equipe40/tp/tp4/Probl\303\250me 2/test.out"
+"equipe40/tp/tp4/Probl\303\250me 2/test.out.map"
+"equipe40/tp/tp4/Probl\303\250me 3/pb3.d"
+"equipe40/tp/tp4/Probl\303\250me 3/pb3.o"
+"equipe40/tp/tp4/Probl\303\250me 3/test.hex"
+"equipe40/tp/tp4/Probl\303\250me 3/test.out"
+"equipe40/tp/tp4/Probl\303\250me 3/test.out.map"
+equipe40/tp/tp5/pb1/memoire_24.d
+equipe40/tp/tp5/pb1/memoire_24.o
+equipe40/tp/tp5/pb1/pb1.d
+equipe40/tp/tp5/pb1/pb1.o
+equipe40/tp/tp5/pb1/test.hex
+equipe40/tp/tp5/pb1/test.out
+equipe40/tp/tp5/pb1/test.out.map
+equipe40/tp/tp5/pb2/memoire_24.d
+equipe40/tp/tp5/pb2/memoire_24.o
+equipe40/tp/tp5/pb2/pb2.d
+equipe40/tp/tp5/pb2/pb2.o
+equipe40/tp/tp5/pb2/test.hex
+equipe40/tp/tp5/pb2/test.out
+equipe40/tp/tp5/pb2/test.out.map
+equipe40/tp/tp5/pb3/memoire_24.d
+equipe40/tp/tp5/pb3/memoire_24.o
+equipe40/tp/tp5/pb3/pb3.d
+equipe40/tp/tp5/pb3/pb3.o
+equipe40/tp/tp5/pb3/test.hex
+equipe40/tp/tp5/pb3/test.out
+equipe40/tp/tp5/pb3/test.out.map
+equipe40/tp/tp6/pb1/pb1.d
+equipe40/tp/tp6/pb1/pb1.o
+equipe40/tp/tp6/pb1/test.hex
+equipe40/tp/tp6/pb1/test.out
+equipe40/tp/tp6/pb1/test.out.map
+equipe40/tp/tp6/pb2/can.d
+equipe40/tp/tp6/pb2/can.o
+equipe40/tp/tp6/pb2/pb2.d
+equipe40/tp/tp6/pb2/pb2.o
+equipe40/tp/tp6/pb2/test.hex
+equipe40/tp/tp6/pb2/test.out
+equipe40/tp/tp6/pb2/test.out.map
+equipe4041/Final/Robot principal/lib4041/button_interrupt.d
+equipe4041/Final/Robot principal/lib4041/button_interrupt.o
+equipe4041/Final/Robot principal/lib4041/can.d
+equipe4041/Final/Robot principal/lib4041/can.o
+equipe4041/Final/Robot principal/lib4041/ctc_T1.d
+equipe4041/Final/Robot principal/lib4041/ctc_T1.o
+equipe4041/Final/Robot principal/lib4041/lib4041.a
+equipe4041/Final/Robot principal/lib4041/lumin_detect.d
+equipe4041/Final/Robot principal/lib4041/lumin_detect.o
+equipe4041/Final/Robot principal/lib4041/memoire_24.d
+equipe4041/Final/Robot principal/lib4041/memoire_24.o
+equipe4041/Final/Robot principal/lib4041/phase_corr_pwm_T0.d
+equipe4041/Final/Robot principal/lib4041/phase_corr_pwm_T0.o
+equipe4041/Final/Robot principal/lib4041/transmission_uart.d
+equipe4041/Final/Robot principal/lib4041/transmission_uart.o
+equipe4041/Final/Robot principal/lib4041/vari_delay.d
+equipe4041/Final/Robot principal/lib4041/vari_delay.o
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/button_interrupt.d"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/button_interrupt.o"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/can.d"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/can.o"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/ctc_T1.d"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/ctc_T1.o"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/lib4041.a"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/lumin_detect.d"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/lumin_detect.o"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/memoire_24.d"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/memoire_24.o"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/phase_corr_pwm_T0.d"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/phase_corr_pwm_T0.o"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/transmission_uart.d"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/transmission_uart.o"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/vari_delay.d"
+"equipe4041/Final/Robot t\303\251l\303\251commande/lib4041/vari_delay.o"
+equipe4041/TP9/Installation/installation.d
+equipe4041/TP9/Installation/installation.o
+equipe4041/TP9/Installation/installation.out.map
+equipe41/tp/tp3/pb1/pb1.d
+equipe41/tp/tp3/pb1/pb1.o
+equipe41/tp/tp3/pb1/tp3.hex
+equipe41/tp/tp3/pb1/tp3.out
+equipe41/tp/tp3/pb1/tp3.out.map
+equipe41/tp/tp3/pb2/pb2.d
+equipe41/tp/tp3/pb2/pb2.o
+equipe41/tp/tp3/pb2/tp3.hex
+equipe41/tp/tp3/pb2/tp3.out
+equipe41/tp/tp3/pb2/tp3.out.map
+equipe41/tp/tp4/pb1/pb1.d
+equipe41/tp/tp4/pb1/pb1.o
+equipe41/tp/tp4/pb1/tp4.hex
+equipe41/tp/tp4/pb1/tp4.out
+equipe41/tp/tp4/pb1/tp4.out.map
+equipe41/tp/tp4/pb1/tp4pb1.d
+equipe41/tp/tp4/pb1/tp4pb1.o
+equipe41/tp/tp4/pb2/.pb2.cpp.swp
+equipe41/tp/tp6/pb1/pb1.d
+equipe41/tp/tp6/pb1/pb1.o
+equipe41/tp/tp6/pb1/tp6pb1.hex
+equipe41/tp/tp6/pb1/tp6pb1.out
+equipe41/tp/tp6/pb1/tp6pb1.out.map
+
+======================= Sortie de make dans les sous-répertoires =============================
+======================= Sortie de make dans codeCommun =============================
+make: *** correction_final/4041/codeCommun : No such file or directory. Arrêt.
+
